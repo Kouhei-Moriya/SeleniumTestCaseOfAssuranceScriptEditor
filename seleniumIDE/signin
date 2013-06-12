@@ -11,6 +11,18 @@
 <thead>
 <tr><td rowspan="1" colspan="3">signin</td></tr>
 </thead><tbody>
+<!--以下、環境変数-->
+<tr>
+	<td>store</td>
+	<td>testid</td>
+	<td>signinid</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>abc123</td>
+	<td>password</td>
+</tr>
+<!--以下、テスト-->
 <tr>
 	<td>open</td>
 	<td>/dcase_viewer/</td>
@@ -24,19 +36,18 @@
 <tr>
 	<td>type</td>
 	<td>css=#sign-in-form &gt; input[name=&quot;username&quot;]</td>
-	<td>testid</td>
+	<td>${signinid}</td>
 </tr>
 <tr>
 	<td>type</td>
 	<td>css=#sign-in-form &gt; input[name=&quot;password&quot;]</td>
-	<td>abc123</td>
+	<td>${password}</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
 	<td>css=#sign-in-form &gt; input.btn.btn-primary</td>
 	<td></td>
 </tr>
-
 </tbody></table>
 </body>
 </html>

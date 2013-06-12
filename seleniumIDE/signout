@@ -11,6 +11,13 @@
 <thead>
 <tr><td rowspan="1" colspan="3">signout</td></tr>
 </thead><tbody>
+<!--以下、環境変数-->
+<tr>
+	<td>store</td>
+	<td>testid</td>
+	<td>signoutid</td>
+</tr>
+<!--以下、テスト-->
 <tr>
 	<td>open</td>
 	<td>/dcase_viewer/</td>
@@ -18,7 +25,7 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>link=testid</td>
+	<td>link=${signoutid}</td>
 	<td></td>
 </tr>
 <tr>
@@ -26,7 +33,6 @@
 	<td>css=input.btn.btn-danger</td>
 	<td></td>
 </tr>
-
 </tbody></table>
 </body>
 </html>

@@ -11,6 +11,13 @@
 <thead>
 <tr><td rowspan="1" colspan="3">deletedcase</td></tr>
 </thead><tbody>
+<!--以下、環境変数-->
+<tr>
+	<td>store</td>
+	<td>d50</td>
+	<td>deleteid</td>
+</tr>
+<!--以下、テスト-->
 <tr>
 	<td>open</td>
 	<td>/dcase_viewer/</td>
@@ -18,7 +25,7 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>id=d46</td>
+	<td>id=${deleteid}</td>
 	<td></td>
 </tr>
 <tr>

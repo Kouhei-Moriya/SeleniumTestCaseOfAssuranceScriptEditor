@@ -11,6 +11,18 @@
 <thead>
 <tr><td rowspan="1" colspan="3">editdcasetitle</td></tr>
 </thead><tbody>
+<!--以下、環境変数-->
+<tr>
+	<td>store</td>
+	<td>e47</td>
+	<td>editid</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>test dcase 2</td>
+	<td>newtitle</td>
+</tr>
+<!--以下、テスト-->
 <tr>
 	<td>open</td>
 	<td>/dcase_viewer/</td>
@@ -18,12 +30,12 @@
 </tr>
 <tr>
 	<td>answerOnNextPrompt</td>
-	<td>piyo</td>
+	<td>${newtitle}</td>
 	<td></td>
 </tr>
 <tr>
 	<td>click</td>
-	<td>id=e42</td>
+	<td>id=${editid}</td>
 	<td></td>
 </tr>
 <tr>
@@ -36,7 +48,6 @@
 	<td>変更しました</td>
 	<td></td>
 </tr>
-
 </tbody></table>
 </body>
 </html>

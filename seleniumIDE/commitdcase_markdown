@@ -11,6 +11,18 @@
 <thead>
 <tr><td rowspan="1" colspan="3">commitdcase_beta2</td></tr>
 </thead><tbody>
+<!--以下、環境変数-->
+<tr>
+	<td>store</td>
+	<td>test dcase 2</td>
+	<td>dcasetitle</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>hoge</td>
+	<td>commitcomment</td>
+</tr>
+<!--以下、テスト-->
 <tr>
 	<td>open</td>
 	<td>/dcase_viewer/</td>
@@ -18,7 +30,7 @@
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>link=test dcase</td>
+	<td>link=${dcasetitle}</td>
 	<td></td>
 </tr>
 <tr>
@@ -29,7 +41,7 @@
 <tr>
 	<td>type</td>
 	<td>css=textarea.node-inplace</td>
-	<td># Goal G_1 1<br />selenium IDEでD-Case作成のテストケースが作成できる？<br /><br /># Context<br />a<br /><br /># Strategy<br />b</td>
+	<td># Goal G_1 1<br />selenium IDEでD-Caseをマークダウン記法で編集してコミットするテストケースが作成できる<br /><br /># Context<br />a<br /><br /># Strategy<br />b</td>
 </tr>
 <tr>
 	<td>fireEvent</td>
@@ -68,7 +80,7 @@
 </tr>
 <tr>
 	<td>answerOnNextPrompt</td>
-	<td>hoge</td>
+	<td>${commitcomment}</td>
 	<td></td>
 </tr>
 <tr>

@@ -11,6 +11,13 @@
 <thead>
 <tr><td rowspan="1" colspan="3">exportdscript</td></tr>
 </thead><tbody>
+<!--以下、環境変数-->
+<tr>
+	<td>store</td>
+	<td>test dcase</td>
+	<td>dcasetitle</td>
+</tr>
+<!--以下、テスト-->
 <tr>
 	<td>open</td>
 	<td>/dcase_viewer/</td>
@@ -18,7 +25,7 @@
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>link=testdcase</td>
+	<td>link=${dcasetitle}</td>
 	<td></td>
 </tr>
 <tr>
@@ -31,12 +38,6 @@
 	<td>id=menu-export-dscript</td>
 	<td></td>
 </tr>
-<tr>
-	<td>waitForPopUp</td>
-	<td>_blank</td>
-	<td>30000</td>
-</tr>
-
 </tbody></table>
 </body>
 </html>

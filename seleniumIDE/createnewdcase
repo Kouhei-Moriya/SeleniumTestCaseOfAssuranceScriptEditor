@@ -11,6 +11,18 @@
 <thead>
 <tr><td rowspan="1" colspan="3">createnewdcase</td></tr>
 </thead><tbody>
+<!--以下、環境変数-->
+<tr>
+	<td>store</td>
+	<td>testcase dcase</td>
+	<td>dcasetitle</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>selenium IDEでD-Caseを新規作成するテストケースが作成できる</td>
+	<td>description</td>
+</tr>
+<!--以下、テスト-->
 <tr>
 	<td>open</td>
 	<td>/dcase_viewer/</td>
@@ -19,12 +31,12 @@
 <tr>
 	<td>type</td>
 	<td>id=inputDCaseName</td>
-	<td>test dcase</td>
+	<td>${dcasetitle}</td>
 </tr>
 <tr>
 	<td>type</td>
 	<td>id=inputDesc</td>
-	<td>selenium IDEでD-CaseをGUIで編集してコミットするテストケースが作成できる</td>
+	<td>${description}</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>

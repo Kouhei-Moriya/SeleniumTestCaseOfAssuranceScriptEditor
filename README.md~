@@ -15,8 +15,6 @@ IDEによるテストケース作成時の問題
 ・テキストボックスが閉じない→blurのfireEventを明示的にはさむ
 （新規ノード作成のテキストボックスの場合はclick css=#viewer > div）
 
-・store命令を用いて一部の環境変数を前に置いた
-
 
 selenium rcはまだ動かない（以下シェルのコード例）
 java -jar selenium-server-standalone-2.33.0.jar  -htmlSuite "*firefox" "http://www.ubicg.ynu.ac.jp/" "/.../signout" "result"
