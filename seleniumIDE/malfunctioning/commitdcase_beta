@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://www.ubicg.ynu.ac.jp/" />
+<title>commitdcase_beta</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">commitdcase_beta</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/dcase_viewer/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=test dcase</td>
+	<td></td>
+</tr>
+<tr>
+	<td>fireEvent</td>
+	<td>css=div.node-container</td>
+	<td>mouseover</td>
+</tr>
+<tr>
+	<td>fireEvent</td>
+	<td>css=a.icon-plus</td>
+	<td>mouseover</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Strategy</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=textarea</td>
+	<td>aaa</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#viewer &gt; div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>fireEvent</td>
+	<td>css=div.node-container</td>
+	<td>mouseover</td>
+</tr>
+<tr>
+	<td>fireEvent</td>
+	<td>css=a.icon-plus</td>
+	<td>mouseover</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Context</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=textarea</td>
+	<td>bbb</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#viewer &gt; div</td>
+	<td></td>
+</tr>
+<!--以下がうまくいかない-->
+<tr>
+	<td>fireEvent</td>
+	<td>css=div.node-container</td>
+	<td>mouseover</td>
+</tr>
+<tr>
+	<td>fireEvent</td>
+	<td>css=a.icon-plus</td>
+	<td>mouseover</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Context</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=textarea</td>
+	<td>ccc</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#viewer &gt; div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>fireEvent</td>
+	<td>css=div.node-container</td>
+	<td>mouseover</td>
+</tr>
+<tr>
+	<td>fireEvent</td>
+	<td>css=a.icon-plus</td>
+	<td>mouseover</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=textarea</td>
+	<td>ddd</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#viewer &gt; div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>fireEvent</td>
+	<td>css=div.node-container</td>
+	<td>mouseover</td>
+</tr>
+<tr>
+	<td>fireEvent</td>
+	<td>css=a.icon-plus</td>
+	<td>mouseover</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=textarea</td>
+	<td>eee</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#viewer &gt; div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>fireEvent</td>
+	<td>css=div.node-container</td>
+	<td>mouseover</td>
+</tr>
+<tr>
+	<td>fireEvent</td>
+	<td>css=a.icon-plus</td>
+	<td>mouseover</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Evidence</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=textarea</td>
+	<td>fff</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#viewer &gt; div</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
