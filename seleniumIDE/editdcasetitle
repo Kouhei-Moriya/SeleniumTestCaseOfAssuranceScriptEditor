@@ -24,11 +24,6 @@
 </tr>
 <!--以下、テスト-->
 <tr>
-	<td>open</td>
-	<td>/dcase_viewer/</td>
-	<td></td>
-</tr>
-<tr>
 	<td>answerOnNextPrompt</td>
 	<td>${newtitle}</td>
 	<td></td>

@@ -24,11 +24,6 @@
 </tr>
 <!--以下、テスト-->
 <tr>
-	<td>open</td>
-	<td>/dcase_viewer/</td>
-	<td></td>
-</tr>
-<tr>
 	<td>click</td>
 	<td>link=Sign Up</td>
 	<td></td>
