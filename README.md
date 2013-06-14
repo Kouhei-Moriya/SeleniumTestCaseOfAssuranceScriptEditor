@@ -22,6 +22,8 @@ IDEによるテストケース作成時の問題
 selenium rcはテストスイートが必要なため共通のテストケースを1つ使用してスイートを組んでから使う
 java -jar selenium-server-standalone-2.33.0.jar  -htmlSuite "*firefox" "http://www.ubicg.ynu.ac.jp/" "/home/kouhei/Developments/seleniumtestcase/seleniumIDE/xxxxx" "/home/kouhei/result"
 
+*firefox
+*googlechrome
 
 
-Seleniumは実行するアプリケーションが別サーバだと実行できない？
+Seleniumは実行するアプリケーションが別サーバだと実行できない？→別にそんなことない

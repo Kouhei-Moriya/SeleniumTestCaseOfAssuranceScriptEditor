@@ -14,12 +14,12 @@
 <!--以下、環境変数-->
 <tr>
 	<td>store</td>
-	<td>e47</td>
+	<td>e54</td>
 	<td>editid</td>
 </tr>
 <tr>
 	<td>store</td>
-	<td>test dcase 2</td>
+	<td>testcase dcase renamed</td>
 	<td>newtitle</td>
 </tr>
 <!--以下、テスト-->
