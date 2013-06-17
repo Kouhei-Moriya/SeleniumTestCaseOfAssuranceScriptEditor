@@ -4,33 +4,27 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="http://www.ubicg.ynu.ac.jp/" />
-<title>exportdscript</title>
+<title>deletedcase</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">exportdscript</td></tr>
+<tr><td rowspan="1" colspan="3">deletedcase</td></tr>
 </thead><tbody>
-<!--以下、環境変数-->
-<tr>
-	<td>store</td>
-	<td>renamed test dcase</td>
-	<td>dcasetitle</td>
-</tr>
 <!--以下、テスト-->
 <tr>
-	<td>clickAndWait</td>
-	<td>link=${dcasetitle}</td>
+	<td>click</td>
+	<td>//tbody[@id=&quot;dcase-select-table&quot;]/tr/td[6]/a</td>
 	<td></td>
 </tr>
 <tr>
-	<td>click</td>
-	<td>link=エクスポート</td>
+	<td>assertConfirmation</td>
+	<td>dcaseを削除しますか?</td>
 	<td></td>
 </tr>
 <tr>
-	<td>click</td>
-	<td>id=menu-export-dscript</td>
+	<td>assertAlert</td>
+	<td>削除しました</td>
 	<td></td>
 </tr>
 </tbody></table>
