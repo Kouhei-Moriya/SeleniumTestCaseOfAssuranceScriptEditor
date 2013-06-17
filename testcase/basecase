@@ -11,9 +11,16 @@
 <thead>
 <tr><td rowspan="1" colspan="3">basecase</td></tr>
 </thead><tbody>
+<!--以下、環境変数-->
+<tr>
+	<td>store</td>
+	<td>http://www.ubicg.ynu.ac.jp/dcase_viewer/</td>
+	<td>testURI</td>
+</tr>
+<!--以下、テスト-->
 <tr>
 	<td>open</td>
-	<td>http://www.ubicg.ynu.ac.jp/dcase_viewer/</td>
+	<td>${testURI}</td>
 	<td></td>
 </tr>
 </tbody></table>
