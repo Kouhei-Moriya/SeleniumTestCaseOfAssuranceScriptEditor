@@ -4,43 +4,48 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="http://www.ubicg.ynu.ac.jp/" />
-<title>editdcasetitle</title>
+<title>createnewdcase_NewUI</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">editdcasetitle</td></tr>
+<tr><td rowspan="1" colspan="3">createnewdcase_NewUI</td></tr>
 </thead><tbody>
 <!--以下、環境変数-->
 <tr>
 	<td>store</td>
-	<td>e54</td>
-	<td>editid</td>
+	<td>testcase dcase</td>
+	<td>dcasetitle</td>
 </tr>
 <tr>
 	<td>store</td>
-	<td>renamed test dcase</td>
-	<td>newtitle</td>
+	<td>selenium IDEでD-Caseを新規作成するテストケースが作成できる</td>
+	<td>description</td>
 </tr>
 <!--以下、テスト-->
 <tr>
-	<td>answerOnNextPrompt</td>
-	<td>${newtitle}</td>
+	<td>click</td>
+	<td>link=new...</td>
 	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=inputDCaseName</td>
+	<td>${dcasetitle}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=inputDesc</td>
+	<td>${description}</td>
 </tr>
 <tr>
 	<td>click</td>
-	<td>id=${editid}</td>
+	<td>id=dcase-create</td>
 	<td></td>
 </tr>
 <tr>
-	<td>assertPrompt</td>
-	<td>dcase名を入力して下さい</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertAlert</td>
-	<td>変更しました</td>
+	<td>clickAndWait</td>
+	<td>link=ホーム</td>
 	<td></td>
 </tr>
 </tbody></table>
