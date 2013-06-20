@@ -4,12 +4,12 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="http://www.ubicg.ynu.ac.jp/" />
-<title>signin</title>
+<title>navbar_beta</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">signin</td></tr>
+<tr><td rowspan="1" colspan="3">navbar_beta</td></tr>
 </thead><tbody>
 <tr>
 	<td>click</td>
