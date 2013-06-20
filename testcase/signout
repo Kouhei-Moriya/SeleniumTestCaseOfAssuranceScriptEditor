@@ -11,16 +11,10 @@
 <thead>
 <tr><td rowspan="1" colspan="3">signout</td></tr>
 </thead><tbody>
-<!--以下、環境変数-->
-<tr>
-	<td>store</td>
-	<td>testid</td>
-	<td>signoutid</td>
-</tr>
 <!--以下、テスト-->
 <tr>
 	<td>click</td>
-	<td>link=${signoutid}</td>
+	<td>//ul[@class=&quot;nav pull-right&quot;]/li[2]/a</td>
 	<td></td>
 </tr>
 <tr>
