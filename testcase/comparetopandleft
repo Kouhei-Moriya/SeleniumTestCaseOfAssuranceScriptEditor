@@ -42,7 +42,7 @@
 <!--図側の座標取得-->
 <tr>
 	<td>assertNotEval</td>
-	<td>svgxy = this.browserbot.getCurrentWindow().document.getElementsByTagName('svg')[0].getElementsByTagName('g')[0].getAttribute('transform').split(/ *[(),] */g).slice(5,7);</td>
+	<td>svgxy = this.browserbot.getCurrentWindow().document.getElementsByTagName('svg')[0].getElementsByTagName('g')[0].getAttribute('transform').split(/[(), ] ?/g).slice(5,7);</td>
 	<td></td>
 </tr>
 <tr>
