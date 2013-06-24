@@ -4,48 +4,23 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="http://www.ubicg.ynu.ac.jp/" />
-<title>createnewdcase_NewUI</title>
+<title>basecase_NewUI</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">createnewdcase_NewUI</td></tr>
+<tr><td rowspan="1" colspan="3">basecase_NewUI</td></tr>
 </thead><tbody>
 <!--以下、環境変数-->
 <tr>
 	<td>store</td>
-	<td>testcase dcase</td>
-	<td>dcasetitle</td>
-</tr>
-<tr>
-	<td>store</td>
-	<td>selenium IDEでD-Caseを新規作成するテストケースが作成できる</td>
-	<td>description</td>
+	<td>http://www.ubicg.ynu.ac.jp/ait-test/</td>
+	<td>testURI</td>
 </tr>
 <!--以下、テスト-->
 <tr>
-	<td>click</td>
-	<td>link=New</td>
-	<td></td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=inputDCaseName</td>
-	<td>${dcasetitle}</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=inputDesc</td>
-	<td>${description}</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>id=dcase-create</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>link=ホーム</td>
+	<td>open</td>
+	<td>${testURI}</td>
 	<td></td>
 </tr>
 </tbody></table>
