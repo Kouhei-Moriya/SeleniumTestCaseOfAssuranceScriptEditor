@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://www.ubicg.ynu.ac.jp/" />
+<title>commitdcase_GUI</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">commitdcase_GUI</td></tr>
+</thead><tbody>
+<!--以下、環境変数-->
+<tr>
+	<td>store</td>
+	<td>testcase dcase</td>
+	<td>dcasetitle</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>piyo</td>
+	<td>commitcomment</td>
+</tr>
+<!--以下、テスト-->
+<tr>
+	<td>clickAndWait</td>
+	<td>link=${dcasetitle}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>fireEvent</td>
+	<td>//div[@id='viewer']/div[2]/div</td>
+	<td>mouseover</td>
+</tr>
+<tr>
+	<td>fireEvent</td>
+	<td>//div[@id='viewer']/div[2]/div/div[4]/a</td>
+	<td>mouseover</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Strategy</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//div[@id='viewer']/div[2]/div/table/tbody/tr/td[2]/textarea</td>
+	<td>aaa</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#viewer &gt; div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>fireEvent</td>
+	<td>//div[@id='viewer']/div[2]/div</td>
+	<td>mouseover</td>
+</tr>
+<tr>
+	<td>fireEvent</td>
+	<td>//div[@id='viewer']/div[2]/div/div[4]/a</td>
+	<td>mouseover</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Context</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//div[@id='viewer']/div[2]/div/table/tbody/tr/td[2]/textarea</td>
+	<td>bbb</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#viewer &gt; div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>fireEvent</td>
+	<td>//div[@id='viewer']/div[2]/div[2]</td>
+	<td>mouseover</td>
+</tr>
+<tr>
+	<td>fireEvent</td>
+	<td>//div[@id='viewer']/div[2]/div[2]/div[4]/a</td>
+	<td>mouseover</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Context</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//div[@id='viewer']/div[2]/div[2]/table/tbody/tr/td[2]/textarea</td>
+	<td>ccc</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#viewer &gt; div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>fireEvent</td>
+	<td>//div[@id='viewer']/div[2]/div[2]</td>
+	<td>mouseover</td>
+</tr>
+<tr>
+	<td>fireEvent</td>
+	<td>//div[@id='viewer']/div[2]/div[2]/div[4]/a</td>
+	<td>mouseover</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Goal</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//div[@id='viewer']/div[2]/div[2]/table/tbody/tr/td[2]/textarea</td>
+	<td>ddd</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#viewer &gt; div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>fireEvent</td>
+	<td>//div[@id='viewer']/div[2]/div[2]</td>
+	<td>mouseover</td>
+</tr>
+<tr>
+	<td>fireEvent</td>
+	<td>//div[@id='viewer']/div[2]/div[2]/div[4]/a</td>
+	<td>mouseover</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Goal</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//div[@id='viewer']/div[2]/div[2]/table/tbody/tr/td[2]/textarea</td>
+	<td>eee</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#viewer &gt; div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>fireEvent</td>
+	<td>//div[@id='viewer']/div[2]/div[5]</td>
+	<td>mouseover</td>
+</tr>
+<tr>
+	<td>fireEvent</td>
+	<td>//div[@id='viewer']/div[2]/div[5]/div[4]/a</td>
+	<td>mouseover</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Evidence</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//div[@id='viewer']/div[2]/div[5]/table/tbody/tr/td[2]/textarea</td>
+	<td>fff</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#viewer &gt; div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>answerOnNextPrompt</td>
+	<td>${commitcomment}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=menu-commit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertPrompt</td>
+	<td>コミットメッセージを入力して下さい</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertAlert</td>
+	<td>コミットしました</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=ホーム</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

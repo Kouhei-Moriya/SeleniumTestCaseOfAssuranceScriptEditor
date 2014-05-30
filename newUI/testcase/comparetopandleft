@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://www.google.co.jp/" />
+<title>comparetopandleft</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">comparetopandleft</td></tr>
+</thead><tbody>
+<!--以下、環境変数-->
+<tr>
+	<td>store</td>
+	<td>renamed test dcase</td>
+	<td>dcasetitle</td>
+</tr>
+<!--以下、テスト-->
+<tr>
+	<td>clickAndWait</td>
+	<td>link=${dcasetitle}</td>
+	<td></td>
+</tr>
+<!--文字側の座標取得-->
+<tr>
+	<td>storeElementPositionLeft</td>
+	<td>//div[@id='viewer']/div[2]</td>
+	<td>divleft</td>
+</tr>
+<tr>
+	<td>storeElementPositionTop</td>
+	<td>//div[@id='viewer']/div[2]</td>
+	<td>divtop</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${divleft},${divtop}</td>
+	<td></td>
+</tr>
+<!--図側の座標取得-->
+<tr>
+	<td>assertNotEval</td>
+	<td>svgxy = this.browserbot.getCurrentWindow().document.getElementsByTagName('svg')[0].getElementsByTagName('g')[0].getAttribute('transform').split(/[(), ] ?/g).slice(5,7);</td>
+	<td></td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>javascript{svgxy;}</td>
+	<td></td>
+</tr>
+<!--比較-->
+<tr>
+	<td>assertEval</td>
+	<td>storedVars['divleft'] == parseInt(svgxy[0]);</td>
+	<td>true</td>
+</tr>
+<tr>
+	<td>assertEval</td>
+	<td>storedVars['divtop'] == parseInt(svgxy[1]) + 40;</td>
+	<td>true</td>
+</tr>
+</tbody></table>
+</body>
+</html>

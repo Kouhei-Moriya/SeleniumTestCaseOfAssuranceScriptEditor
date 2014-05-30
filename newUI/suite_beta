@@ -9,16 +9,14 @@
 <table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
 <tr><td><b>Test Suite</b></td></tr>
 <tr><td><a href="testcase/basecase">basecase</a></td></tr>
-<tr><td><a href="testcase/signup">signup</a></td></tr>
-<tr><td><a href="testcase/signout">signout</a></td></tr>
 <tr><td><a href="testcase/signin">signin</a></td></tr>
-<tr><td><a href="testcase/createnewdcase_NewUI">createnewdcase_NewUI</a></td></tr>
+<tr><td><a href="testcase/createnewdcase">createnewdcase</a></td></tr>
 <tr><td><a href="testcase/commitdcase_GUI">commitdcase_GUI</a></td></tr>
 <tr><td><a href="testcase/deletedcase_latest">deletedcase_latest</a></td></tr>
-<tr><td><a href="testcase/createnewdcase_NewUI">createnewdcase_NewUI</a></td></tr>
+<tr><td><a href="testcase/createnewdcase">createnewdcase</a></td></tr>
 <tr><td><a href="testcase/commitdcase_markdown">commitdcase_markdown</a></td></tr>
 <tr><td><a href="testcase/editdcasetitle_latest">editdcasetitle</a></td></tr>
-<tr><td><a href="testcase/exportdscript">exportdscript</a></td></tr>
+<tr><td><a href="testcase/signout">signout</a></td></tr>
 </tbody></table>
 </body>
 </html>
